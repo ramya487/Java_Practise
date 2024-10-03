@@ -10,6 +10,7 @@ public class SearchBST {
         }
         return root;
     }
+
     public static void main(String[] args){
         TreeNode root = ExampleBST.getTree();
         Scanner sc = new Scanner(System.in);
