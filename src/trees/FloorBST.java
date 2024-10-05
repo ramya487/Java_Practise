@@ -2,6 +2,8 @@ package trees;
 import nodes.*;
 import java.util.Scanner;
 
+// T- O(log2N) that is O(H) or O(N) when the tree is skewed
+// S- O(1)
 public class FloorBST {
     public static int getFloor(TreeNode root, int target){
         int ret = -1;
