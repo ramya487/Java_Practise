@@ -4,7 +4,7 @@ import graphs.ExampleGraph;
 
 public class BFS {
     public static void main(String[] args){
-        List<List<Integer>> adjList = ExampleGraph.getAdjList(); // undirected non-weighted graph v: 1-8
+        List<List<Integer>> adjList = ExampleGraph.getAdjList(); // connected undirected non-weighted graph v: 1-8
 
         Queue<Integer> q = new LinkedList<>();
         int[] vis = new int[adjList.size()];

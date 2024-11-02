@@ -13,7 +13,7 @@ public class ExampleGraph {
 
         for (int[] edge: edges){
             adjList.get(edge[0]).add(edge[1]);
-            adjList.get(edge[1]).add(edge[0]); // undirected non-weighted graph
+            adjList.get(edge[1]).add(edge[0]); // connected undirected non-weighted graph
         }
 
         return adjList;
